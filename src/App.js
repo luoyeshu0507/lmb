@@ -1,4 +1,5 @@
 import React from 'react';
+import Main from './components/main';
 import {
   BrowserRouter as Router,
   Switch,
@@ -8,9 +9,7 @@ import {
 
 function App() {
   return (
-    <div className="App">
-      123
-    </div>
+    <Main />
   );
 }
 
