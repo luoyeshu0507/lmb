@@ -7,8 +7,32 @@
   a {
     width: 100%;
     text-align: center;
+    color: #505050;
     &.active, {
+      color: #4d4658;
       background-color: #E4E4E4;
+      .anticon:first-child {
+        display: none;
+      }
+      .anticon:nth-child(2) {
+        display: inline-block;
+      }
+    }
+    .anticon {
+      font-size: 18px;
+      margin-top: 6px;
+    }
+    .anticon:first-child {
+      display: inline-block;
+    }
+    .anticon:nth-child(2) {
+      display: none;
+    }
+    em {
+      display: inline-block;
+      width: 100%;
+      font-style: normal;
+      font-size: 14px;
     }
   }
 }
