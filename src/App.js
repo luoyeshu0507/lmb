@@ -1,15 +1,12 @@
 import React from 'react';
-import Main from './components/main';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import Main from './components/Main';
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <Main />
+    <Router>
+      <Main />
+    </Router>
   );
 }
 

@@ -1,0 +1,14 @@
+.nav {
+  height: 50px;
+  width: 100%;
+  flex: 0 0 auto;
+  border-top: 1px solid #D5D5D5;
+  display: flex;
+  a {
+    width: 100%;
+    text-align: center;
+    &.active, {
+      background-color: #E4E4E4;
+    }
+  }
+}
