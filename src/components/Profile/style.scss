@@ -1,0 +1,49 @@
+.profile {
+  .title {
+    background-color: #4d455a;
+    text-align: center;
+    color: #f4eff6;
+    overflow: hidden;
+    .user-img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      overflow: hidden;
+      background-color: #fff;
+      border: 2px solid #5e5862;
+      margin: 40px auto 0;
+    }
+    .user-name {
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 36px;
+      span {
+        font-size: 12px;
+      }
+    }
+    .user-id {
+      font-size: 12px;
+      margin-bottom: 30px;
+    }
+  }
+  .white-block {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 30px;
+    a {
+      overflow: hidden;
+      display: block;
+      color: #48474d;
+      .anticon:first-child {
+        margin-right: 10px;
+        font-size: 18px;
+      }
+      .anticon:last-child {
+        float: right;
+        font-size: 18px;
+        margin: 16px 24px 0 0;
+        color: #c0c0c0;
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.home {
+  .title {
+    text-align: center;
+    height: 75px;
+    line-height: 75px;
+    background-color: #4f475c;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .white-block-title {
+    text-align: center;
+    span {
+      display: block;
+      font-size: 15px;
+      font-weight: bold;
+      color: #36353b;
+      padding: 24px 0 5px;
+    }
+    em {
+      display: block;
+      font-size: 12px;
+      color: #d3d2d7;
+      font-style: normal;
+    }
+  }
+  .service-list {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+    a {
+      width: 25%;
+      height: 60px;
+      flex: 0 1 auto;
+      color: #6d628d;
+      .anticon {
+        font-size: 22px;
+      }
+      em {
+        display: block;
+        font-style: normal;
+        font-size: 12px;
+      }
+    }
+  }
+}
