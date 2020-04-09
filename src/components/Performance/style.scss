@@ -1,2 +1,57 @@
 .performance {
+  .title {
+    background-color: #4d455a;
+    color: #f4eff6;
+    overflow: hidden;
+    height: 150px;
+    .label {
+      text-align: center;
+      margin-top: 24px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .sub {
+      margin: 20px 30px 0;
+      font-size: 16px;
+      div {
+        display: inline-block;
+        width: 50%;
+        span {
+          display: block;
+          color: #aca6b4;
+          line-height: 32px;
+        }
+        em {
+          font-style: normal;
+        }
+      }
+    }
+  }
+  .perf-search-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4a4951;
+    margin: 0 30px;
+    line-height: 50px;
+  }
+  .perf-item {
+    background-color: #fff;
+    margin: 0 30px 16px;
+    box-shadow: 0 3px 0 0 #eeeeee;
+    line-height: 70px;
+    padding: 0 20px;
+    font-weight: bold;
+    color: #4a4951;
+    .anticon {
+      font-size: 18px;
+      margin-right: 6px;
+      vertical-align: sup;
+    }
+    em {
+      float: right;
+      font-weight: normal;
+      font-style: normal;
+      color: #a1a1a1;
+    }
+  }
 }
